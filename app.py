@@ -18,7 +18,7 @@ def comment():
     for word in swear:
         if word in rq:
             return 'Bad Comment'
-        return 'Comment posted'
+    return 'Comment posted'
 
 if __name__ == '__main__':
     app.run()
